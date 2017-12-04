@@ -1,26 +1,35 @@
 // Default settings
-data_set = 'data/results_custom_dataset_poor_large.txt'
+data_set = 'data/results_forest_fires.txt'
+name_data_set = 'forest_fires'
+use_simulated_data = false
+correlation = 'poor'
+noise = 'little'
 desired_columns = ['drop', 'mean', 'median', 'regression', 'random', 'stochastic']
 x_variable = 'missing_rows_proportion'
 missing_type = 'MCAR'
-evaluation_error_metric = 'R2'
+evaluation_error_metric = 'MSE'
 evaluation_model = 'lin'
-confidence_interval = true
+confidence_interval = false
 
 function generate_chart(){
     jQuery.get(data_set, function(data) {
 
-        if ((evaluation_error_metric == 'RMSE') || (evaluation_error_metric == 'MSE')){
-            evaluation_metric = 'mse'
-        } else {
-            evaluation_metric = 'ev'
+        evaluation_metric_lowercase = evaluation_error_metric.toLowerCase();
+
+        if (use_simulated_data) {
+            name_data_set = 'simulated data with a ' + correlation + ' correlation and ' + noise + ' noise'
+        } else if (name_data_set == 'forest_fires') {
+            name_data_set = 'real data: Forest Fires'
+        } else if (name_data_set == 'slump_test'){
+            name_data_set = 'real data: Concrete Slump Test'
         }
 
         Highcharts.setOptions({
         colors: ['#b2182b', '#1b7837', '#2166ac', '#756bb1', '#fa9fb5', '#f1a340']
         });
 
-        series = create_series(data, desired_columns, missing_type, evaluation_metric, evaluation_model, x_variable)
+        series = create_series(data, desired_columns, missing_type, evaluation_metric_lowercase, evaluation_model, x_variable)
+        series.series[0].visible = false
 
         if (x_variable == 'missing_rows_proportion') {
             var x_axis_name = 'Proportion of incomplete rows'
@@ -29,8 +38,7 @@ function generate_chart(){
         }
 
         // Create plot
-        // I want to give series.y_min and series.y_max to create_chart
-        create_chart('container', x_axis_name, series.y_axis_name, series.series);
+        create_chart('container', x_axis_name, evaluation_error_metric, series.type, name_data_set, series.series);
    });
 }
 
@@ -54,16 +62,26 @@ change_confidence_interval = function(new_confidence_interval){
     generate_chart();
 }
 
-change_data_set = function(name){
+change_real_data_set = function(name){
     data_set = 'data/results_' + name + '.txt'
+    name_data_set = name
+    use_simulated_data = false
     generate_chart();
 }
 
-/*
-change_data_set = function(new_correlation_structure, new_amount_noise){
-    data_set = 'data/results_custom_dataset_' + new_correlation_structure + '_' + new_amount_noise + '.txt'
+change_correlation = function(new_correlation){
+    correlation = new_correlation
+    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    use_simulated_data = true
     generate_chart();
-}*/
+}
+
+change_noise = function(new_noise){
+    noise = new_noise
+    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    use_simulated_data = true
+    generate_chart();
+}
 
 window.onload = function() {
   generate_chart();

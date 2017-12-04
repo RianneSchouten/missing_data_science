@@ -1,4 +1,4 @@
-function create_chart(container, x_name, y_name, series){
+function create_chart(container, x_name, evaluation_error_metric, missing_type, name_data_set, series){
 
     Highcharts.chart(container, {
 
@@ -7,7 +7,11 @@ function create_chart(container, x_name, y_name, series){
         },
 
         title: {
-            text: 'Missing Data Simulation Output'
+            text: 'Simulation with ' + name_data_set
+        },
+
+        subtitle: {
+            text: missing_type
         },
 
         xAxis: {
@@ -17,20 +21,13 @@ function create_chart(container, x_name, y_name, series){
         },
 
         yAxis: {
-            //min: 0.6, I want to define min and max when a plot is loaded. But i also want users to be able to zoom!
-            //max: 1.0,
-            //tickInterval: 20,
             title: {
-                text: y_name
+                text: evaluation_error_metric
             }
         },
 
         tooltip: {
-            crosshairs: false,
-            shared: true,
-            valuePrefix: '',
-            valueSuffix: '',
-            valueDecimals: 3,
+            enabled: false
         },
 
         legend: {

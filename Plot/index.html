@@ -17,18 +17,23 @@
 		<!--<p>Choose evaluation error metric:</p>-->
 		Error Metric:<button onclick="change_evaluation_error_metric('MSE')">MSE</button>
 		<button onclick="change_evaluation_error_metric('RMSE')">RMSE</button>
-		<button onclick="change_evaluation_error_metric('R2')">R2</button><br>
+		<button onclick="change_evaluation_error_metric('MAE')">MAE</button>
+		<button onclick="change_evaluation_error_metric('EV')">EV</button><br>
 		<!--<p>Choose calculation of proportion of missingness:</p>-->
 		X-Axis:<button onclick="change_x_variable('missing_cells_proportion')">CELLS</button>
 		<button onclick="change_x_variable('missing_rows_proportion')">ROWS</button><br>
 		<!--<p>Choose inclusion of confidence interval:</p>-->
 		IQR:<button onclick="change_confidence_interval('True')">YES</button>
 		<button onclick="change_confidence_interval('False')">NO</button><br>
-		<!--<p>Choose data set:</p>-->
-		Dataset:<button onclick="change_data_set('forest_fires')">Forest Fires</button>
-		<button onclick="change_data_set('slump_test')">Concrete Slump Test</button>
-		<button onclick="change_data_set('custom_dataset_poor_small')">Poor/Small</button>
-		<button onclick="change_data_set('custom_dataset_rich_large')">Rich/Large</button></p>
+		<!--<p>Choose from real datasets:</p>-->
+		Real Data:<button onclick="change_real_data_set('forest_fires')">FOREST FIRES</button>
+		<button onclick="change_real_data_set('slump_test')">SLUMP TEST</button><br>
+		<!--<p>Choose correlation in simulated datasets:</p>-->
+		Correlation:<button onclick="change_correlation('poor')">POOR</button>
+		<button onclick="change_correlation('rich')">RICH</button><br>
+		<!--<p>Choose noise in simulated datasets:</p>-->
+		Noise:<button onclick="change_noise('little')">LITTLE</button>
+		<button onclick="change_noise('much')">MUCH</button></p>
 	</BODY>
 	<FOOTER>
 		<!--Hand made-->
@@ -37,3 +42,4 @@
 		<script src="js/charts.js"></script>
 	</FOOTER>
 </HTML>
+

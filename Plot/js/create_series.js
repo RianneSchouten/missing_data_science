@@ -1,4 +1,4 @@
-function create_series(data, desired_columns, missing_type, evaluation_metric, evaluation_model, x_variable) {
+function create_series(data, desired_columns, missing_type, evaluation_error_metric, evaluation_model, x_variable) {
     lines = data.split("\n");
     var header = lines[0];
     lines.shift()
@@ -8,7 +8,7 @@ function create_series(data, desired_columns, missing_type, evaluation_metric, e
     column_names.forEach(function(column, index) {
         header_map[column] = index;
     });
-    console.log(header_map)
+    header_map['missing_cells_proportion'] = 22;
 
     //Find where the desired data is stored in the matrix
     desired_columns_indexes = []
@@ -29,9 +29,9 @@ function create_series(data, desired_columns, missing_type, evaluation_metric, e
         fields = line.split("\t")
 
         if (fields[header_map['missing_type']] == missing_type) {
-            if (fields[header_map['evaluation_metric']] == evaluation_metric) {
+            if (fields[header_map['evaluation_metric']] == evaluation_error_metric) {
                 if (fields[header_map['model']] == evaluation_model) {
-                    var desired_fields = {"x":fields[header_map[x_variable]]} //dit gaat mis als x_variable is: missing_cells_proportion
+                    var desired_fields = {"x":fields[header_map[x_variable]]}
                     for (index in desired_columns_indexes){
                         column_index = desired_columns_indexes[index]
                         column_name = column_names[column_index]
@@ -48,68 +48,27 @@ function create_series(data, desired_columns, missing_type, evaluation_metric, e
     lines_data = [];
     ranges_data = [];
 
-    if (evaluation_error_metric == 'RMSE') {
-
-        for (imputation_method_index in desired_columns) {
-            imputation_method = desired_columns[imputation_method_index]
+    for (imputation_method_index in desired_columns) {
+         imputation_method = desired_columns[imputation_method_index]
      
-            var one_line = plot_data.map(function(point, index) {
-            return [parseFloat(point["x"]), Math.sqrt(parseFloat(point[imputation_method]))];
-            });
+         var one_line = plot_data.map(function(point, index) {
+             return [parseFloat(point["x"]), parseFloat(point[imputation_method])];
+         });
 
-            lines_data.push(one_line)
+         lines_data.push(one_line)
 
-            if (confidence_interval) {
+         if (confidence_interval) {
 
-                lower_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(1)]
-                upper_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(2)]
+             lower_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(1)]
+             upper_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(2)]
 
-                var one_range = plot_data.map(function(point, index) {
-                    return [parseFloat(point["x"]), Math.sqrt(parseFloat(point[lower_bound_imputation_method])),
-                    Math.sqrt(parseFloat(point[upper_bound_imputation_method]))];
-                });
+             var one_range = plot_data.map(function(point, index) {
+                 return [parseFloat(point["x"]), parseFloat(point[lower_bound_imputation_method]), parseFloat(point[upper_bound_imputation_method])];
+             });
 
-                ranges_data.push(one_range)
-
-             }
-        }
-
-        var y_axis_name = "RMSE"
-
-    } else {
-
-        for (imputation_method_index in desired_columns) {
-            imputation_method = desired_columns[imputation_method_index]
-     
-            var one_line = plot_data.map(function(point, index) {
-                return [parseFloat(point["x"]), parseFloat(point[imputation_method])];
-            });
-
-            lines_data.push(one_line)
-
-            if (confidence_interval) {
-
-                lower_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(1)]
-                upper_bound_imputation_method = column_names[parseInt(header_map[imputation_method]) + parseInt(2)]
-
-                var one_range = plot_data.map(function(point, index) {
-                    return [parseFloat(point["x"]), parseFloat(point[lower_bound_imputation_method]), parseFloat(point[upper_bound_imputation_method])];
-                });
-
-                ranges_data.push(one_range)
-            }
-        }
-
-        if (evaluation_error_metric == 'MSE') {
-
-            var y_axis_name = "MSE"
-
-        } else if (evaluation_error_metric == 'R2') {
-
-            var y_axis_name = "R2"
-        
-        }
-    } 
+             ranges_data.push(one_range)
+         }
+    }
 
     series = [];
 
@@ -155,13 +114,8 @@ function create_series(data, desired_columns, missing_type, evaluation_metric, e
         }
     }
 
-    y_min = 0.1 // I want to define y_min en y_max here, and give it to create_chart
-    y_max = 1.0
-
     return {
         series: series,
-        y_axis_name: y_axis_name,
-        y_min: y_min,
-        y_max: y_max,
+        type: missing_type,
     };
 }
