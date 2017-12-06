@@ -1,17 +1,17 @@
 button{
     color:#454545;
     background:transparent;
-    border-width:2px;
+    border-width:1px;
     border-style: solid;
     border-color: #454545;
     position:relative;
-    margin:0.5em;
+    margin:0.3em;
     display:inline-block;
     padding:0.2em 0.4em;
     transition:all 0.3s ease-in-out;
     text-align:center;
-    font-family:comfortaa;
-    font-weight:bold}
+    font-family:Lucida Grande;
+    font-weight:normal}
 button:before,
 button:after{
     content:'';
@@ -24,14 +24,14 @@ button:after{
     height:1em;
     transition:all 0.3s ease-in-out}
 button:before{
-    top:-6px;
-    left:-6px;
-    border-width:2px 0 0 2px;
+    top:-3px;
+    left:-3px;
+    border-width:1px 0 0 1px;
     z-index:5}
 button:after{
-    bottom:-6px;
-    right:-6px;
-    border-width:0 2px 2px 0}
+    bottom:-3px;
+    right:-3px;
+    border-width:0 1px 1px 0}
 button:hover:before,
 button:hover:after{
     width:calc(100% + 12px);
@@ -42,5 +42,8 @@ button:hover{
     background-color:#fff;
     border-color:#fff}
 
-p{color: #454545; font-family:Garamond;
-    font-weight:bold,font-size: 30px; font-weight: 800; line-height: 32px; margin: 0 0 24px; text-transform: uppercase;}
+p{color: #353535; font-family:Lucida Sans Unicode;
+    font-weight:normal,
+    font-size: 30px;
+    line-height: 32px;
+    margin: 0 0 24px;}
