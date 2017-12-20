@@ -1,6 +1,6 @@
 // Default settings
-data_set = 'data/results_forest_fires.txt'
-name_data_set = 'forest_fires'
+data_set = 'data/results_slump_test.txt'
+name_data_set = 'slump_test'
 use_simulated_data = false
 correlation = 'poor'
 noise = 'little'

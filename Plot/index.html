@@ -12,8 +12,10 @@
 		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 		<!--<p>Choose missingness mechanism:</p>-->
 		<p>Mechanism:<button onclick="change_missing_type('MCAR')">MCAR</button>
-		<button onclick="change_missing_type('MAR')">MAR</button>
-		<button onclick="change_missing_type('MNAR')">MNAR</button><br>
+		<button onclick="change_missing_type('MARZ')">MARZ</button>
+		<button onclick="change_missing_type('MARX')">MARX</button>
+		<button onclick="change_missing_type('MNARZ')">MNARZ</button>
+		<button onclick="change_missing_type('MNARX')">MNARX</button><br>
 		<!--<p>Choose evaluation error metric:</p>-->
 		Error Metric:<button onclick="change_evaluation_error_metric('MSE')">MSE</button>
 		<button onclick="change_evaluation_error_metric('RMSE')">RMSE</button>
@@ -26,8 +28,8 @@
 		IQR:<button onclick="change_confidence_interval('True')">YES</button>
 		<button onclick="change_confidence_interval('False')">NO</button><br>
 		<!--<p>Choose from real datasets:</p>-->
-		Real Data:<button onclick="change_real_data_set('forest_fires')">FOREST FIRES</button>
-		<button onclick="change_real_data_set('slump_test')">SLUMP TEST</button><br>
+		Real Data:<button onclick="change_real_data_set('slump_test')">SLUMP TEST</button>
+		<button onclick="change_real_data_set('forest_fires')">FOREST FIRES</button><br>
 		<!--<p>Choose correlation in simulated datasets:</p>-->
 		Correlation:<button onclick="change_correlation('poor')">POOR</button>
 		<button onclick="change_correlation('rich')">RICH</button><br>
