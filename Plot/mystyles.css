@@ -11,7 +11,8 @@ button{
     transition:all 0.3s ease-in-out;
     text-align:center;
     font-family:Lucida Grande;
-    font-weight:normal}
+    font-weight:normal;
+    font-size: 12px;}
 button:before,
 button:after{
     content:'';
@@ -20,8 +21,8 @@ button:after{
     border-color:#454545;
     box-sizing:border-box;
     border-style:solid;
-    width:1em;
-    height:1em;
+    width:0.5em;
+    height:0.5em;
     transition:all 0.3s ease-in-out}
 button:before{
     top:-3px;
@@ -44,6 +45,6 @@ button:hover{
 
 p{color: #353535; font-family:Lucida Sans Unicode;
     font-weight:normal,
-    font-size: 30px;
+    font-size: 12px;
     line-height: 32px;
     margin: 0 0 24px;}

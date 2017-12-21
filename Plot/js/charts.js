@@ -1,5 +1,5 @@
 // Default settings
-data_set = 'data/results_slump_test.txt'
+data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_slump_test.txt'
 name_data_set = 'slump_test'
 use_simulated_data = false
 correlation = 'poor'
@@ -63,7 +63,7 @@ change_confidence_interval = function(new_confidence_interval){
 }
 
 change_real_data_set = function(name){
-    data_set = 'data/results_' + name + '.txt'
+    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_' + name + '.txt'
     name_data_set = name
     use_simulated_data = false
     generate_chart();
@@ -71,14 +71,14 @@ change_real_data_set = function(name){
 
 change_correlation = function(new_correlation){
     correlation = new_correlation
-    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
     use_simulated_data = true
     generate_chart();
 }
 
 change_noise = function(new_noise){
     noise = new_noise
-    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
     use_simulated_data = true
     generate_chart();
 }
