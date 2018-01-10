@@ -8,7 +8,6 @@ function create_series(data, desired_columns, missing_type, evaluation_error_met
     column_names.forEach(function(column, index) {
         header_map[column] = index;
     });
-    console.log(header_map)
     header_map['missing_cells_proportion'] = 25;
 
     //Find where the desired data is stored in the matrix
