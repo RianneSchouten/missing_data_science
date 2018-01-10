@@ -16,5 +16,5 @@ For questions, remarks, feedback or any other comments, find my contact details 
 
 .. _here: https://rianneschouten.github.io/#contact
 
-.. _blogpost: https://rianneschouten.github.io/missing_data_science/assets/blogpost/blogpost.rst
+.. _blogpost: https://rianneschouten.github.io/missing_data_science/assets/blogpost/ampute.html
 
