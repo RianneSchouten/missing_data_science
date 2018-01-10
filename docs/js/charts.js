@@ -1,5 +1,6 @@
 // Default settings
-data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_slump_test.txt'
+//data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_slump_test.txt'
+data_set = 'data/results_slump_test.txt'
 name_data_set = 'slump_test'
 use_simulated_data = false
 correlation = 'poor'
@@ -18,10 +19,8 @@ function generate_chart(){
 
         if (use_simulated_data) {
             name_data_set = 'simulated data with a ' + correlation + ' correlation and ' + noise + ' noise'
-        } else if (name_data_set == 'forest_fires') {
-            name_data_set = 'real data: Forest Fires'
-        } else if (name_data_set == 'slump_test'){
-            name_data_set = 'real data: Concrete Slump Test'
+        } else {
+            name_data_set = 'real dataset ' + name_data_set
         }
 
         Highcharts.setOptions({
@@ -52,10 +51,12 @@ change_evaluation_error_metric = function(new_evaluation_error_metric){
     generate_chart();
 }
 
+/*
 change_x_variable = function(new_x_variable){
     x_variable = new_x_variable;
     generate_chart();
 }
+*/
 
 change_confidence_interval = function(new_confidence_interval){
     confidence_interval = new_confidence_interval == 'True';
@@ -63,7 +64,7 @@ change_confidence_interval = function(new_confidence_interval){
 }
 
 change_real_data_set = function(name){
-    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_' + name + '.txt'
+    data_set = 'data/results_' + name + '.txt'
     name_data_set = name
     use_simulated_data = false
     generate_chart();
@@ -71,14 +72,16 @@ change_real_data_set = function(name){
 
 change_correlation = function(new_correlation){
     correlation = new_correlation
-    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    //data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
     use_simulated_data = true
     generate_chart();
 }
 
 change_noise = function(new_noise){
     noise = new_noise
-    data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    //data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_custom_dataset_' + correlation + '_' + noise + '.txt'
+    data_set = 'data/results_custom_dataset_' + correlation + '_' + noise + '.txt'
     use_simulated_data = true
     generate_chart();
 }
