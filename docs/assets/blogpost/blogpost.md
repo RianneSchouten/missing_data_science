@@ -2,10 +2,10 @@
 
 --- 
 
-Here will be the text of the blogpost
+The text will be here. 
 
 ```{python}
-print ('hey there')
+print ('code works like this')
 ```
 
-This is how the code works. 
+ 
