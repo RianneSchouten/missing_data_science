@@ -1,6 +1,6 @@
 // Default settings
 //data_set = 'https://www.dpadatascience.nl/wp-content/uploads/2017/12/results_slump_test.txt'
-data_set = '/docs/plot/data/results_slump_test.txt'
+data_set = 'plot/data/results_slump_test.txt'
 name_data_set = 'slump_test'
 use_simulated_data = false
 correlation = 'poor'
