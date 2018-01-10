@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa6f2536-5e23-4bb7-81b3-0b93ce1f2e9f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_custom_dataset_poor_little.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_custom_dataset_poor_much.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_custom_dataset_rich_little.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_custom_dataset_rich_much.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_forest_fires.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_red_wine_quality.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_school_alcohol_consumption.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/results_slump_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/create_chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/create_series.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/css/highcharts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/css/highcharts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-3d.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-3d.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-more.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-3d.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-3d.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-more.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/accessibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/accessibility.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/accessibility.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/annotations.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost-canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost-canvas.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost-canvas.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/boost.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/broken-axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/broken-axis.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/broken-axis.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/bullet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/bullet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/bullet.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/data.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drag-panes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drag-panes.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drag-panes.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drilldown.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/export-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/export-data.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/export-data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/exporting.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/funnel.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/gantt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/gantt.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/gantt.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/grid-axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/grid-axis.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/grid-axis.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/heatmap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/histogram-bellcurve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/histogram-bellcurve.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/histogram-bellcurve.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/item-series.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/item-series.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/item-series.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/no-data-to-display.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/offline-exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/offline-exporting.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/offline-exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/oldie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/oldie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/oldie.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/overlapping-datalabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/overlapping-datalabels.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/overlapping-datalabels.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/parallel-coordinates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/parallel-coordinates.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/parallel-coordinates.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/pareto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/pareto.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/pareto.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sankey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sankey.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sankey.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/series-label.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/series-label.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/series-label.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/solid-gauge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/solid-gauge.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/solid-gauge.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/static-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/static-scale.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/static-scale.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/stock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/stock.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/stock.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/streamgraph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/streamgraph.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/streamgraph.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sunburst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sunburst.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/sunburst.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/tilemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/tilemap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/tilemap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/treemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/treemap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/treemap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variable-pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variable-pie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variable-pie.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variwide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variwide.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/variwide.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/vector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/vector.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/vector.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/windbarb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/windbarb.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/windbarb.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/wordcloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/wordcloud.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/wordcloud.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/xrange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/xrange.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/modules/xrange.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/avocado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/avocado.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/avocado.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-blue.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-blue.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-green.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-green.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-unica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-unica.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/dark-unica.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/gray.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/gray.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid-light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid-light.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid-light.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/grid.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sand-signika.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sand-signika.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sand-signika.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/skies.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/skies.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sunset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sunset.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/js/themes/sunset.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/canvg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/canvg.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/jspdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/jspdf.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/rgbcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/rgbcolor.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/svg2pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/lib/svg2pdf.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/accessibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/accessibility.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/accessibility.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/annotations.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost-canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost-canvas.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost-canvas.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/boost.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/broken-axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/broken-axis.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/broken-axis.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/bullet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/bullet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/bullet.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/data.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drag-panes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drag-panes.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drag-panes.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drilldown.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/export-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/export-data.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/export-data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/exporting.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/funnel.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/gantt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/gantt.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/gantt.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/grid-axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/grid-axis.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/grid-axis.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/heatmap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/histogram-bellcurve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/histogram-bellcurve.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/histogram-bellcurve.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/item-series.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/item-series.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/item-series.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/no-data-to-display.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/offline-exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/offline-exporting.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/offline-exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/oldie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/oldie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/oldie.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/overlapping-datalabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/overlapping-datalabels.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/overlapping-datalabels.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/parallel-coordinates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/parallel-coordinates.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/parallel-coordinates.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/pareto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/pareto.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/pareto.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sankey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sankey.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sankey.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/series-label.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/series-label.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/series-label.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/solid-gauge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/solid-gauge.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/solid-gauge.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/static-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/static-scale.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/static-scale.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/stock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/stock.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/stock.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/streamgraph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/streamgraph.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/streamgraph.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sunburst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sunburst.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/sunburst.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/tilemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/tilemap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/tilemap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/treemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/treemap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/treemap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variable-pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variable-pie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variable-pie.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variwide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variwide.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/variwide.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/vector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/vector.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/vector.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/windbarb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/windbarb.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/windbarb.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/wordcloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/wordcloud.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/wordcloud.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/xrange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/xrange.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/modules/xrange.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/avocado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/avocado.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/avocado.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-blue.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-blue.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-green.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-green.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-unica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-unica.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/dark-unica.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/gray.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/gray.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid-light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid-light.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid-light.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/grid.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sand-signika.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sand-signika.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sand-signika.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/skies.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/skies.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sunset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sunset.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/highcharts/themes/sunset.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/lib/jquery/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/mystyles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/webserver.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulations/simulations.ipynb" afterPath="$PROJECT_DIR$/Simulations/simulations.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docs/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="missing_data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missing_data_science" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="missing_data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missing_data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa6f2536-5e23-4bb7-81b3-0b93ce1f2e9f" name="Default" comment="" />
+      <created>1515589460022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515589460022</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
