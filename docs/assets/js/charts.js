@@ -18,9 +18,9 @@ function generate_chart(){
         evaluation_metric_lowercase = evaluation_error_metric.toLowerCase();
 
         if (use_simulated_data) {
-            name_data_set = 'simulated data with a ' + correlation + ' correlation and ' + noise + ' noise'
+            name_title = 'simulated data with a ' + correlation + ' correlation and ' + noise + ' noise'
         } else {
-            name_data_set = 'real dataset ' + name_data_set
+            name_title = 'real dataset ' + name_data_set
         }
 
         Highcharts.setOptions({
@@ -37,7 +37,7 @@ function generate_chart(){
         }
 
         // Create plot
-        create_chart('container', x_axis_name, evaluation_error_metric, series.type, name_data_set, series.series);
+        create_chart('container', x_axis_name, evaluation_error_metric, series.type, name_title, series.series);
    });
 }
 
