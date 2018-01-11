@@ -48,3 +48,14 @@ p{color: #353535; font-family:Lucida Sans Unicode;
     font-size: 12px;
     line-height: 32px;
     margin: 0 0 24px;}
+
+.column {
+    float: left;
+    width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

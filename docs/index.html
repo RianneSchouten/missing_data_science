@@ -10,6 +10,8 @@
 	</HEAD>
 	<BODY>
 		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+		<div class="row">
+  		<div class="column">
 		<!--<p>Choose missingness mechanism:</p>-->
 		<p>Missingness mechanism:<button onclick="change_missing_type('MCAR')">MCAR</button>
 		<button onclick="change_missing_type('MARZ')">MARZ</button>
@@ -29,13 +31,17 @@
 		Show real dataset:<button onclick="change_real_data_set('slump_test')">SLUMP TEST</button>
 		<button onclick="change_real_data_set('forest_fires')">FOREST FIRES</button>
 		<button onclick="change_real_data_set('red_wine_quality')">RED WINE QUALITY</button>
-		<button onclick="change_real_data_set('school_alcohol_consumption')">SCHOOl ALCOHOL CONSUMPTION</button><br>
+		<button onclick="change_real_data_set('school_alcohol_consumption')">ALCOHOL CONSUMPTION</button><br>
 		<!--<p>Choose correlation in simulated datasets:</p>-->
 		Show simulated dataset with correlation:<button onclick="change_correlation('poor')">POOR</button>
 		<button onclick="change_correlation('rich')">RICH</button><br>
 		<!--<p>Choose noise in simulated datasets:</p>-->
 		Show simulated dataset with noise:<button onclick="change_noise('little')">LITTLE</button>
-		<button onclick="change_noise('much')">MUCH</button></p>
+		<button onclick="change_noise('much')">MUCH</button></p></div>
+			<div class="column">
+		<p>The simulation setup and an interpretation of the results are given in the blogpost:
+			<a href="https://rianneschouten.github.io/missing_data_science/assets/blogpost/blogpost.html">Missing Data in Data Science</a>.</p>
+			</div></div>
 	</BODY>
 	<FOOTER>
 		<!--Hand made-->
