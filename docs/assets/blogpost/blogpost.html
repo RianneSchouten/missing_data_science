@@ -227,40 +227,9 @@ $(document).ready(function () {
 <td align="center">0.364</td>
 <td align="center">-0.056</td>
 </tr>
-<tr class="odd">
-<td align="center">Poor correlation, little noise</td>
-<td align="center">0.010</td>
-<td align="center">0.101</td>
-<td align="center">0.081</td>
-<td align="center">0.999</td>
-<td align="center">-0.000</td>
-</tr>
-<tr class="even">
-<td align="center">Poor correlation, much noise</td>
-<td align="center">24.603</td>
-<td align="center">4.960</td>
-<td align="center">3.960</td>
-<td align="center">0.992</td>
-<td align="center">-0.255</td>
-</tr>
-<tr class="odd">
-<td align="center">Rich correlation, little noise</td>
-<td align="center">0.010</td>
-<td align="center">0.099</td>
-<td align="center">0.080</td>
-<td align="center">0.999</td>
-<td align="center">-0.000</td>
-</tr>
-<tr class="even">
-<td align="center">Rich correlation, much noise</td>
-<td align="center">24.867</td>
-<td align="center">4.97</td>
-<td align="center">3.961</td>
-<td align="center">0.999</td>
-<td align="center">-0.239</td>
-</tr>
 </tbody>
 </table>
+<hr />
 <div id="concrete-slump-test" class="section level4">
 <h4>Concrete Slump Test</h4>
 <p>The <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/slump/">dataset</a> has 7 numerical features used to predict the concrete slump in cm. Compared with the values above, missing values induce an increase of MSE, RMSE and MAE and a decrease of EV. This result is obvious, because the missing data creates uncertainty in the data.</p>
@@ -269,17 +238,20 @@ $(document).ready(function () {
 <p>It is apparent that using regression imputation instead of mean/median imputation does not improve the model. This is the situation for all missingness mechanisms. Moreover, when the missingness depends on a variable outside the data (Z), it is not of influence whether or not you use Z to esimate the imputation (MARZ versus MNARZ). This outcome is quite unexpected.</p>
 <p>One possible explanation might be that in our simulation, the missingness in the training set is comparable to the missingness in the testset. You could argue that, as a consequence, any mistake you make fitting the imputation model will result in the same mistakes in the testset. As a result, it could be that the accuracy of predictions are not affected. Of course, more research on this has to be done.</p>
 <p>Interestingly, although the mean and median imputation models return a smaller MSE, the MSE difference between training and testset is worse than with random imputation. In other words, random imputation reduces the risks of overfitting.</p>
+<hr />
 </div>
 <div id="forest-fires" class="section level4">
 <h4>Forest Fires</h4>
 <p>Dataset <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/.">Forest Fires</a> perform quite badly with a linear regression model. The explained variance even drops below zero! It is probably for that reason, that regression imputation gives results comparable to mean and median imputation. The imputation model is just as bad as the analysis model, and is not able to make reasonable estimations of the missing values. As a result, the regression model is nothing more than mean imputation.</p>
 <p>Interestingly though, the analysis model is underfitting in most of the situations. However, when Z is used to make a regression or stochastic regression imputation model (MARZ), there is extreme overfitting of the analysis model!</p>
+<hr />
 </div>
 <div id="red-wine-quality-and-school-alcohol-consumption" class="section level4">
 <h4>Red Wine Quality and School Alcohol Consumption</h4>
 <p>The linear model performs better for the <a href="https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009/data">Red Wine Quality</a> and <a href="https://www.kaggle.com/uciml/student-alcohol-consumption/data">School Alcohol Consumption</a> data. Overfitting values are low too.</p>
 <p>In these datasets, regression imputation performs slightly better than the other imputation methods. Although the missing data method also induces overfitting, the effect is less bad than with the other two datasets.</p>
 <p>In addition, stochastic regression imputation turns towards random imputation. Apparently, the uncertainty of the regression imputation model is so worse that adding noise to the imputations equals picking a random value from the observed data. In other words, the amount of noise added to the regression imputations is that large that the imputations come close to random imputations.</p>
+<hr />
 </div>
 <div id="simulated-data" class="section level4">
 <h4>Simulated data</h4>
@@ -298,8 +270,61 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Correlation</th>
+<th align="center">Noise</th>
+<th align="center">MSE</th>
+<th align="center">RMSE</th>
+<th align="center">MAE</th>
+<th align="center">EV</th>
+<th align="center">DIF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Poor</td>
+<td align="center">Little</td>
+<td align="center">0.010</td>
+<td align="center">0.101</td>
+<td align="center">0.081</td>
+<td align="center">0.999</td>
+<td align="center">-0.000</td>
+</tr>
+<tr class="even">
+<td align="center">Poor</td>
+<td align="center">Much</td>
+<td align="center">24.603</td>
+<td align="center">4.960</td>
+<td align="center">3.960</td>
+<td align="center">0.992</td>
+<td align="center">-0.255</td>
+</tr>
+<tr class="odd">
+<td align="center">Rich</td>
+<td align="center">Little</td>
+<td align="center">0.010</td>
+<td align="center">0.099</td>
+<td align="center">0.080</td>
+<td align="center">0.999</td>
+<td align="center">-0.000</td>
+</tr>
+<tr class="even">
+<td align="center">Rich</td>
+<td align="center">Much</td>
+<td align="center">24.867</td>
+<td align="center">4.97</td>
+<td align="center">3.961</td>
+<td align="center">0.999</td>
+<td align="center">-0.239</td>
+</tr>
+</tbody>
+</table>
+<p>The outcome of the analysis on the complete datasets are presented in the table above. It is clear that despite of the noise, the datasets can be analyzed well with a regression model.</p>
 <p>The perfect characteristics of the simulated datasets make that mean and median imputation exactly overlap. The same applies to regression and stochastic regression imputation. Furthermore, the <code>dropna</code> method gives perfect results. The reason for this outcome is that, in particular, the rows with extreme values are removed from the dataset.</p>
 <p>Nonetheless, what we understand from these simulation is that the performance of regression imputation is clearly affected by the correlation structure of the data. With strong correlations between the X features, regression and stochastic regression imputation perform better than mean and median imputation. At the same time, regression imputation performs well when there is much noise in the outcome variable. Although these results may seem contradictory, it makes sense that in case of noise in the outcome variable, regression imputation can add structure to the data.</p>
+<hr />
 </div>
 </div>
 <div id="conclusion" class="section level2">

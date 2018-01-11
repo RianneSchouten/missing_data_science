@@ -76,10 +76,8 @@ Concrete slump test | 62.468 | 7.842  | 6.483 | 0.146 | -12.232
 Forest Fires | 4160.603 | 50.394 | 21.477 | -0.785 | -222.325  
 Red Wine Quality | 0.437 |0.661 | 0.510 | 0.298 | -0.022  
 School Alcohol Consumption | 0.487 | 0.694 | 0.483 | 0.364 | -0.056 
-Poor correlation, little noise |0.010 | 0.101 | 0.081 | 0.999  | -0.000
-Poor correlation, much noise |24.603 | 4.960 | 3.960 |  0.992 | -0.255 
-Rich correlation, little noise |0.010 | 0.099 | 0.080 |  0.999 | -0.000
-Rich correlation, much noise | 24.867 | 4.97 | 3.961 |  0.999 | -0.239 
+
+---
 
 #### Concrete Slump Test
 
@@ -95,11 +93,15 @@ One possible explanation might be that in our simulation, the missingness in the
 
 Interestingly, although the mean and median imputation models return a smaller MSE, the MSE difference between training and testset is worse than with random imputation. In other words, random imputation reduces the risks of overfitting. 
 
+--- 
+
 #### Forest Fires
 
 Dataset [Forest Fires](https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/.) perform quite badly with a linear regression model. The explained variance even drops below zero! It is probably for that reason, that regression imputation gives results comparable to mean and median imputation. The imputation model is just as bad as the analysis model, and is not able to make reasonable estimations of the missing values. As a result, the regression model is nothing more than mean imputation.  
 
 Interestingly though, the analysis model is underfitting in most of the situations. However, when Z is used to make a regression or stochastic regression imputation model (MARZ), there is extreme overfitting of the analysis model!  
+
+--- 
 
 #### Red Wine Quality and School Alcohol Consumption
 
@@ -109,6 +111,8 @@ In these datasets, regression imputation performs slightly better than the other
 
 In addition, stochastic regression imputation turns towards random imputation. Apparently, the uncertainty of the regression imputation model is so worse that adding noise to the imputations equals picking a random value from the observed data. In other words, the amount of noise added to the regression imputations is that large that the imputations come close to random imputations. 
 
+--- 
+
 #### Simulated data
 
 Our simulation datasets have either a poor or rich correlation structure (see figures below). A continuous output variable is sampled by making a linear equation with the features, using a random weights vector, and by adding noise. We generated the output variable with two levels of noise: little and much. 
@@ -117,9 +121,21 @@ Poor correlation structure  |  Rich correlation structure
 :---------------------:|:-------------------------:
 ![](figures/poor.png)  |  ![](figures/rich.png)
 
+
+Correlation | Noise | MSE | RMSE  | MAE | EV   | DIF 
+:----------:|:-----:|:---:|:-----:|:---:|:----:|:-----:
+Poor | Little |0.010 | 0.101 | 0.081 | 0.999  | -0.000
+Poor | Much |24.603 | 4.960 | 3.960 |  0.992 | -0.255 
+Rich | Little  |0.010 | 0.099 | 0.080 |  0.999 | -0.000
+Rich | Much | 24.867 | 4.97 | 3.961 |  0.999 | -0.239 
+
+The outcome of the analysis on the complete datasets are presented in the table above. It is clear that despite of the noise, the datasets can be analyzed well with a regression model. 
+
 The perfect characteristics of the simulated datasets make that mean and median imputation exactly overlap. The same applies to regression and stochastic regression imputation. Furthermore, the `dropna` method gives perfect results. The reason for this outcome is that, in particular, the rows with extreme values are removed from the dataset.
 
 Nonetheless, what we understand from these simulation is that the performance of regression imputation is clearly affected by the correlation structure of the data. With strong correlations between the X features, regression and stochastic regression imputation perform better than mean and median imputation. At the same time, regression imputation performs well when there is much noise in the outcome variable. Although these results may seem contradictory, it makes sense that in case of noise in the outcome variable, regression imputation can add structure to the data. 
+
+--- 
 
 ## Conclusion
 
