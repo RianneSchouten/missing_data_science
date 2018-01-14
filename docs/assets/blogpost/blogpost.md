@@ -161,5 +161,5 @@ For now, [the interactive plot](https://rianneschouten.github.io/missing_data_sc
 
 ## Thanks
 
-Thanks to [Koen Seinen](https://www.linkedin.com/in/coen-seinen-47126a79/) for helping me with the simulation code and thanks to [Koen Verschuren](https://www.linkedin.com/in/koen-verschuren-175b7014/) for helping me with the interactive plot. For questions, remarks or feedback, do not hesitate to [contact me](https://rianneschouten.github.io/#contact). 
+Thanks to [Coen Seinen](https://www.linkedin.com/in/coen-seinen-47126a79/) for helping me with the simulation code and thanks to [Koen Verschuren](https://www.linkedin.com/in/koen-verschuren-175b7014/) for helping me with the interactive plot. For questions, remarks or feedback, do not hesitate to [contact me](https://rianneschouten.github.io/#contact). 
  
