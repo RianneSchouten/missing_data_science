@@ -26,7 +26,7 @@ In missing data theory, we classify missing data problems into three categories:
 
 When the missingness depends on outcome variable Y, and when outcome variable Y is complete observed, scientific researchers would classify this as MAR missingness. After all, the information in Y can be used in the imputation model. However, in data science models, it is generally not accepted to use the outcome variable. One could argue that in situations where missingness in X~1~ depends on the observed values of Y, and variable Y cannot be used in imputation model, it makes more sense to classify the missingness as MNAR. 
 
-Figure 1               |  Figure 2                 |  Figure 3
+Figure 1 |  Figure 2 |  Figure 3
 :---------------------:|:-------------------------:|:-------------------------:
 ![](figures/MCAR.jpg)  |  ![](figures/M(N)ARZ.jpg) | ![](figures/M(N)ARX.jpg)
 
