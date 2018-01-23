@@ -64,7 +64,7 @@ The simulation is as follows:
 
 5. The outcome variable Y is regressed on the X features with a `LinearRegression()` model from `sklearn.linear_model`. In particular, we apply a missing data method to the training set, fit the regression model on the training set, apply the same missing data method to the testset, and make the predictions with the fitted regression model. We evaluate our model by retrieving the following `sklearn.metrics`: `mean_squared_error`, sqrt(`mean_squared_error`), `mean_absolute_error` and `explained_variance`. We also calculate the MSE difference between the model fitted on the training set and the model applied on the testset. Hence, a negative value indicates overfitting of the model. 
 
-6. Every combination of missingness mechanism, missingness proportion and missing values treatment is repeated 1000 times for the real datasets and 20 times for the simulated datasets (more is not needed due to the large size of these datasets). We report the average and IQR of the evaluation metrics. 
+6. Every combination of missingness mechanism, missingness proportion and missing values treatment is repeated 3000 times for the real datasets and 100 times for the simulated datasets (more is not needed due to the large size of these datasets). We report the average and IQR of the evaluation metrics. 
 
 ---
 
