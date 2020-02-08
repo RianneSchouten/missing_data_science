@@ -4,6 +4,4 @@ __pycache__/
 *.Rhistory
 *.sims/
 *.docs/
-.test/
-.test2/
-test3.txt
+*.zip
