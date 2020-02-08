@@ -1,54 +1,10 @@
-<HTML>
-	<HEAD>
-		<!--Libraries-->
-		<script src="assets/lib/highcharts/highcharts.js"></script>
-		<script src="assets/lib/highcharts/highcharts-more.js"></script>
-		<script src="assets/lib/highcharts/modules/exporting.js"></script>
-		<script src="assets/lib/jquery/jquery-3.2.1.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/mystyles.css" media="screen" />
-		<meta content="width=device-width,initial-scale=1">
-	</HEAD>
-	<BODY>
-		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-		<div class="row">
-  		<div class="column">
-		<!--<p>Choose missingness mechanism:</p>-->
-		<p>Missingness mechanism:<button onclick="change_missing_type('MCAR')">MCAR</button>
-		<button onclick="change_missing_type('MARZ')">MARZ</button>
-		<button onclick="change_missing_type('MARX')">MARX</button>
-		<button onclick="change_missing_type('MNARZ')">MNARZ</button>
-		<button onclick="change_missing_type('MNARX')">MNARX</button><br>
-		<!--<p>Choose evaluation error metric:</p>-->
-		Evaluation error metric:<button onclick="change_evaluation_error_metric('MSE')">MSE</button>
-		<button onclick="change_evaluation_error_metric('RMSE')">RMSE</button>
-		<button onclick="change_evaluation_error_metric('MAE')">MAE</button>
-		<button onclick="change_evaluation_error_metric('EV')">EV</button>
-		<button onclick="change_evaluation_error_metric('DIF')">TRAIN MSE - TEST MSE</button><br>
-		<!--<p>Choose inclusion of confidence interval:</p>-->
-		IQR simulation error:<button onclick="change_confidence_interval('True')">YES</button>
-		<button onclick="change_confidence_interval('False')">NO</button><br>
-		<!--<p>Choose from real datasets:</p>-->
-		Show real dataset:<button onclick="change_real_data_set('slump_test')">SLUMP TEST</button>
-		<button onclick="change_real_data_set('forest_fires')">FOREST FIRES</button>
-		<button onclick="change_real_data_set('red_wine_quality')">RED WINE QUALITY</button>
-		<button onclick="change_real_data_set('school_alcohol_consumption')">ALCOHOL CONSUMPTION</button><br>
-		<!--<p>Choose correlation in simulated datasets:</p>-->
-		Show simulated dataset with correlation:<button onclick="change_correlation('poor')">POOR</button>
-		<button onclick="change_correlation('rich')">RICH</button><br>
-		<!--<p>Choose noise in simulated datasets:</p>-->
-		Show simulated dataset with noise:<button onclick="change_noise('little')">LITTLE</button>
-		<button onclick="change_noise('much')">MUCH</button></p></div>
-			<div class="column">
-				<p>The blogpost
-			<a href="https://rianneschouten.github.io/missing_data_science/assets/blogpost/blogpost.html">Missing Data in Data Science</a>
-					contains the simulation setup and an interpretation of the results.</p>
-			</div></div>
-	</BODY>
-	<FOOTER>
-		<!--Hand made-->
-		<script src="assets/js/create_series.js"></script>
-		<script src="assets/js/create_chart.js"></script>
-		<script src="assets/js/charts.js"></script>
-	</FOOTER>
-</HTML>
+Missing Data in Data Science
+============================
 
+.. role:: pyth(code)
+  :language: python
+
+This repository has been cleaned and does not show the interactive plot anymore. 
+All data, code and output is saved though. You can contact_ me for access to the files or more information.
+
+.. _contact: https://rianneschouten.github.io/#contact
