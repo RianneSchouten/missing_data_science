@@ -5,3 +5,4 @@ __pycache__/
 *.sims/
 *.docs/
 .test/
+test3.txt
