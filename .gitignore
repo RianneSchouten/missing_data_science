@@ -2,6 +2,4 @@ __pycache__/
 *.ipynb_checkpoints/
 *.idea/
 *.Rhistory
-*.sims/
-*.docs/
 *.zip
