@@ -4,3 +4,4 @@ __pycache__/
 *.Rhistory
 *.sims/
 *.docs/
+*.test/
